@@ -1,0 +1,44 @@
+{
+  "name": "Appointment Manager For Clinic",
+  "description": "Blank Process",
+  "main": "AppointmentCreatorForClinic.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.3-beta.867639]",
+    "UiPath.Form.Activities": "[1.1.1]",
+    "UiPath.FormActivityLibrary": "[1.1.1]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.865074]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.866690]",
+    "UiPath.WebAPI.Activities": "[1.4.5]",
+    "UiPathTeam.OutlookCalendar.Activities": "[1.0.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
